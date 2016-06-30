@@ -2,7 +2,7 @@
 //  main.m
 //  LZWImageDisplayAnimation
 //
-//  Created by xiubo on 16/6/28.
+//  Created by liuziwen on 16/6/28.
 //  Copyright © 2016年 liuziwen. All rights reserved.
 //
 

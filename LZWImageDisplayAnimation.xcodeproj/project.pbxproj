@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C68D3F1D23A8AF00090249 /* tupian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26C68D3E1D23A8AF00090249 /* tupian2.jpg */; };
+		26C68D431D23AF3C00090249 /* LZWHeartFlyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C68D421D23AF3C00090249 /* LZWHeartFlyAnimation.m */; };
 		26EE63C41D225D6C0020470E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE63C31D225D6C0020470E /* main.m */; };
 		26EE63C71D225D6C0020470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE63C61D225D6C0020470E /* AppDelegate.m */; };
 		26EE63CA1D225D6C0020470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE63C91D225D6C0020470E /* ViewController.m */; };
 		26EE63CD1D225D6C0020470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EE63CB1D225D6C0020470E /* Main.storyboard */; };
 		26EE63CF1D225D6C0020470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26EE63CE1D225D6C0020470E /* Assets.xcassets */; };
 		26EE63D21D225D6C0020470E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26EE63D01D225D6C0020470E /* LaunchScreen.storyboard */; };
+		26EE63DE1D225ED90020470E /* UIView+LZWRevealAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EE63DD1D225ED90020470E /* UIView+LZWRevealAnimation.m */; };
+		26EE63E01D2264250020470E /* tupian1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26EE63DF1D2264250020470E /* tupian1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26C68D3E1D23A8AF00090249 /* tupian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tupian2.jpg; sourceTree = "<group>"; };
+		26C68D411D23AF3C00090249 /* LZWHeartFlyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWHeartFlyAnimation.h; sourceTree = "<group>"; };
+		26C68D421D23AF3C00090249 /* LZWHeartFlyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWHeartFlyAnimation.m; sourceTree = "<group>"; };
 		26EE63BF1D225D6B0020470E /* LZWImageDisplayAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZWImageDisplayAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26EE63C31D225D6C0020470E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26EE63C51D225D6C0020470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		26EE63CE1D225D6C0020470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26EE63D11D225D6C0020470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26EE63D31D225D6C0020470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26EE63DC1D225ED90020470E /* UIView+LZWRevealAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZWRevealAnimation.h"; sourceTree = "<group>"; };
+		26EE63DD1D225ED90020470E /* UIView+LZWRevealAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZWRevealAnimation.m"; sourceTree = "<group>"; };
+		26EE63DF1D2264250020470E /* tupian1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tupian1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C68D401D23AF0C00090249 /* LZWHeartFlyView */ = {
+			isa = PBXGroup;
+			children = (
+				26C68D411D23AF3C00090249 /* LZWHeartFlyAnimation.h */,
+				26C68D421D23AF3C00090249 /* LZWHeartFlyAnimation.m */,
+			);
+			path = LZWHeartFlyView;
+			sourceTree = "<group>";
+		};
 		26EE63B61D225D6B0020470E = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +79,13 @@
 			children = (
 				26EE63C51D225D6C0020470E /* AppDelegate.h */,
 				26EE63C61D225D6C0020470E /* AppDelegate.m */,
+				26EE63DF1D2264250020470E /* tupian1.jpg */,
+				26C68D3E1D23A8AF00090249 /* tupian2.jpg */,
 				26EE63C81D225D6C0020470E /* ViewController.h */,
 				26EE63C91D225D6C0020470E /* ViewController.m */,
+				26EE63DC1D225ED90020470E /* UIView+LZWRevealAnimation.h */,
+				26EE63DD1D225ED90020470E /* UIView+LZWRevealAnimation.m */,
+				26C68D401D23AF0C00090249 /* LZWHeartFlyView */,
 				26EE63CB1D225D6C0020470E /* Main.storyboard */,
 				26EE63CE1D225D6C0020470E /* Assets.xcassets */,
 				26EE63D01D225D6C0020470E /* LaunchScreen.storyboard */,
@@ -105,6 +129,7 @@
 		26EE63B71D225D6B0020470E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LZW;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = liuziwen;
 				TargetAttributes = {
@@ -136,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C68D3F1D23A8AF00090249 /* tupian2.jpg in Resources */,
+				26EE63E01D2264250020470E /* tupian1.jpg in Resources */,
 				26EE63D21D225D6C0020470E /* LaunchScreen.storyboard in Resources */,
 				26EE63CF1D225D6C0020470E /* Assets.xcassets in Resources */,
 				26EE63CD1D225D6C0020470E /* Main.storyboard in Resources */,
@@ -149,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C68D431D23AF3C00090249 /* LZWHeartFlyAnimation.m in Sources */,
 				26EE63CA1D225D6C0020470E /* ViewController.m in Sources */,
 				26EE63C71D225D6C0020470E /* AppDelegate.m in Sources */,
+				26EE63DE1D225ED90020470E /* UIView+LZWRevealAnimation.m in Sources */,
 				26EE63C41D225D6C0020470E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +331,7 @@
 				26EE63D81D225D6C0020470E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
